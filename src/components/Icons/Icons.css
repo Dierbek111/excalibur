@@ -1,0 +1,25 @@
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+.icons__wrapper{
+    display: flex;
+    gap: 20px;
+    @media (max-width:450px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+}
+
+}
+.img_icon{
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,46 @@
+.head__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width:400px; */
+
+  
+}
+
+.header__menu {
+ 
+  display: flex;
+  gap: 30px;
+
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  @media (max-width:450px) {
+    display: none;
+  }
+}
+.header__text {
+  h1 {
+    @media (max-width: 450px) {
+      width: 100px;
+      height: 17px;
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+    }
+  }
+}
+
+.burger__menu {
+  display: none;
+  @media (max-width:450px) {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    }
+  }
+  
+

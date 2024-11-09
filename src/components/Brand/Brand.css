@@ -1,0 +1,19 @@
+.brand{
+    margin-top: 50px
+}
+.brand__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    @media (max-width:450px) {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+.brand__part_2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+}
